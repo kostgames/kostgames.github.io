@@ -1,84 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>About Me</title>
+  <title>Home</title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,greek' rel='stylesheet' type='text/css'>
+    
     <link rel="stylesheet" href="main.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,greek' rel='stylesheet' type='text/css'>
-    <style>
-    .styled-button-5 {
-	background-color:#2081bd;
-	color:white;
-	font-family:'Helvetica Neue',sans-serif;
-	font-size:18px;
-	line-height:30px;
-	border-radius:  50px;
-	-webkit-border-radius:  50px;
-	-moz-border-radius:  50px;
-	border:0;
-	
-	width:175px;
-	padding-top:10px;
-	padding-bottom:10px;
-    cursor:pointer;
-    margin-right:150px;
-    margin-top:40px;
-    margin-bottom:30px;
-    border-style:dashed;
-    border-color:#ff7200;
-    box-shadow: 5px 5px 15px #888888;
-    font-family:'Lobster';
-    
-}         
-.styled-button-5:hover {
-background-color:#3399FF;
-}       
-.styled-button-5:active { background-color:#ff7200;}
-.nav li {
-    display:inline-block;
-}
-#active { background-color:#ff7200; }
-
-body {background-color:#e2e2e2;}
-
-.aboutmetext 
-{
-
-padding-top:50px;
-padding-bottom:50px;
-padding-left:15px;
-PADDING-RIGHT:5px;
-font-family:'Roboto Slab';
-font-size:30px;
-color:#2081bd;
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s ease-in-out;
-  background-color:white;
-
-
-}
-.aboutmetext:hover {
- box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
-    </style>
   </head>
   
   <body>
     <div class="nav">
       <div class="container">
         <ul>
-          <li><form action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
-<input style="cursor:pointer" type="submit" class="styled-button-5" value="Home" /> 
+          <li><form  action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
+<input style="cursor:pointer" type="submit" class="styled-button-5" id="active" value="Home" /> 
 </form>
 </li>
           <li><form action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
-<input style="cursor:pointer" type="submit" class="styled-button-5"  value="My Videos" /> 
+<input style="cursor:pointer" type="submit" class="styled-button-5" value="My Videos" /> 
 </form>
 </li>
         
           <li><form action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
-<input style="cursor:pointer" type="submit" class="styled-button-5" id="active" value="About me" /> 
+<input style="cursor:pointer" type="submit" class="styled-button-5" value="About me" /> 
 </form>
 </li>
           <li><form action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
@@ -90,20 +34,24 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 </form>
 </li>
 
-
-
-
-
         </ul>
       </div>
-    </div><br>
-    <div class="aboutmetext">
-    
-    <p>
-    Γεια σας, είμαι ο Κωστής ,   ένας δεκατετράχρονος   YouTuber . Το κανάλι μου βασίζεται στο Gaming , και πιο συγκεκριμένα στο Minecraft .
-     Παράλληλα , ασχολούμαι και με τα Graphic Designs , όπου κυρίως ζωγραφίζω Minecraft Avatars . Επίσης , μου αρέσει να ασχολούμαι με τα 2D
-     intros . Μένω στο Άργος , μια μικρή πόλη της Αργολίδας.
-   </p>
     </div>
-    </body>
-    </html>
+
+    <div class="jumbotron">
+      <div class="container">
+        
+      </div>
+    </div><br><br>
+    <h1 class="latestvidh1">My Latest Video</h1><br>
+
+    <div class="vid1">
+    <iframe width="1220" height="600" src="https://www.youtube.com/embed/yvz9M76OWYQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+   
+    
+
+    
+  </body>
+</html>
