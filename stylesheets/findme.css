@@ -1,0 +1,77 @@
+.styled-button-5 {
+	background-color:#2081bd;
+	color:white;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:  50px;
+	-webkit-border-radius:  50px;
+	-moz-border-radius:  50px;
+	border:0;
+	
+	width:175px;
+	padding-top:10px;
+	padding-bottom:10px;
+    cursor:pointer;
+    margin-right:150px;
+    margin-top:40px;
+    margin-bottom:30px;
+    border-style:dashed;
+    border-color:#ff7200;
+    box-shadow: 5px 5px 15px #888888;
+    font-family:'Lobster';
+    transition: background-color 0.4;
+}         
+.styled-button-5:hover {
+background-color:#3399FF;
+}       
+.styled-button-5:active { background-color:#ff7200;}
+.nav li {
+    display:inline-block;
+}
+#active { background-color:#ff7200; }
+
+body {background-color:#e2e2e2;}
+
+.googleplus {
+margin-left:20px;
+padding-right:1200px;
+padding-left:720px;
+background-color:#d95232;
+
+}
+
+.findmetext {
+position:relative;
+left:820px;
+color:#2081bd;
+font-family:'Lobster'
+
+
+}
+html, body, head {
+    max-width:100%;
+    overflow-x: hidden;
+}
+.youtube {
+margin-left:20px;
+padding-right:800px;
+padding-left:635px;
+background-color:#dc0000;
+
+}
+
+.twitter {
+margin-left:20px;
+padding-right:1200px;
+padding-left:690px;
+background-color:#33ccff;
+
+}
+.twitch {
+margin-left:20px;
+padding-right:1200px;
+padding-left:700px;
+background-color:#6442a6;
+
+}
