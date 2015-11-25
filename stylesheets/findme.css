@@ -20,7 +20,7 @@
     border-color:#ff7200;
     box-shadow: 5px 5px 15px #888888;
     font-family:'Lobster';
-    transition: background-color 0.4;
+    transition: background-color 0.4s ;
 }         
 .styled-button-5:hover {
 background-color:#3399FF;
