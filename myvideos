@@ -1,0 +1,57 @@
+<html>
+  <head>
+  <title>My videos</title>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  </head>
+  
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li><form action="http://kostgames.github.io/">
+<input style="cursor:pointer" type="submit" class="styled-button-5" value="Home" /> 
+</form>
+</li>
+          <li><form action="#">
+<input style="cursor:pointer" type="submit" class="styled-button-5" id="active" value="My Videos" /> 
+</form>
+</li>
+        
+          <li><form action="http://kostgames.github.io/aboutme">
+<input style="cursor:pointer" type="submit" class="styled-button-5" value="About me" /> 
+</form>
+</li>
+          <li><form action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
+<input style="cursor:pointer" type="submit" class="styled-button-5" value="Info" /> 
+</form>
+</li>
+          <li><form action="http://www.w3schools.com/css/tryit.asp?filename=trycss_link_background">
+<input style="cursor:pointer" type="submit" class="styled-button-5" value="Find me" /> 
+</form>
+</li>
+
+
+        </ul>
+      </div>
+    </div><br>
+    <div class="allvids">
+    <iframe class="leftvid"  width="560" height="315" src="https://www.youtube.com/embed/CFZpTYU93rw" style="border:5px solid white" allowfullscreen></iframe>
+    <iframe class="rightvid" width="560" height="315" src="https://www.youtube.com/embed/KWDZToJpDJ8" style="border:5px solid white" allowfullscreen></iframe><br><br><br>
+    <iframe class="leftvid" width="560" height="315" src="https://www.youtube.com/embed/_I9bW7HFnpM" style="border:5px solid white" allowfullscreen></iframe>
+    <iframe class="rightvid" width="560" height="315" src="https://www.youtube.com/embed/X91eZebuXbg" style="border:5px solid white" allowfullscreen></iframe><br><br><br>
+    
+    </div>
+    <form action="https://www.youtube.com/channel/UCTHRU_JdnHyIwGj1JZUrLiA/videos" target="_blank">
+<input style="cursor:pointer" type="submit" class="styled-button-5" id="morevideosbtn" value="More Videos!" /> 
+</form>
+    
+    
+    
+    
+    
+    
+    </body>
+    </html>
