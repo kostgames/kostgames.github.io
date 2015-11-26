@@ -16,21 +16,31 @@
     margin-right:150px;
     margin-top:40px;
     margin-bottom:30px;
-    border-style:dashed;
-    border-color:#ff7200;
-    box-shadow: 5px 5px 15px #888888;
+    box-shadow: 0px 4px #0e5d8d;
     font-family:'Lobster';
-    transition: background-color 0.4s;
+    transition: all 0.4s;
 }         
 .styled-button-5:hover {
 background-color:#3399FF;
-}       
-.styled-button-5:active { background-color:#ff7200;}
+box-shadow: 0px 4px #2081bd;
+}   
+.styled-button-5:active {
+box-shadow: 0px 0px #6b54d3
+}    
+
 .nav li {
     display:inline-block;
 }
-#active { background-color:#ff7200; }
-
+#active { background-color:#ff7200;
+box-shadow: 0px 4px #bd2020;
+ }
+#active:hover {
+background-color:#ff933c;
+box-shadow: 0px 4px #f04f4f;
+}
+#active:active {
+box-shadow: 0px 0px #bd2020;
+}
 body {background-color:#e2e2e2;}
 #singlevid { 
 position:relative;
