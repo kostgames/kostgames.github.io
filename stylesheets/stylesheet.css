@@ -86,7 +86,9 @@ box-shadow: 0px 4px #f04f4f;
 #active:active {
 box-shadow: 0px 0px #bd2020;
 }
-body {background-color:#e2e2e2;}
+body {background:url('http://i.imgur.com/7nKsybG.png') ;
+background-size: 760px 760px;
+}
 
 .vid1 {
     position:relative;
