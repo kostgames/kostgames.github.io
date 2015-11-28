@@ -7,10 +7,11 @@
 }
 
 .jumbotron {
-  background-image:url('http://i.imgur.com/Ygq9zid.png');
-  margin-left: 397px;
-  height: 411px;
-  width: 1000px;
+  background-image:url('http://i.imgur.com/KWeiBw1.jpg');
+  margin-left: 180px;
+  height: 500px;
+  width: 1500px;
+  
   
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: all 0.3s ease-in-out;  
@@ -95,7 +96,7 @@ body {background-color:#e2e2e2;}
     right:20px;
 }
 
-.latestvidh1 { 
+.latestvid { 
     margin-left:655px;
     color:#2081bd;
     font-family:'Lobster';
