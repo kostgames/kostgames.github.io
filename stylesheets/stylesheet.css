@@ -7,12 +7,10 @@
 }
 
 .jumbotron {
+
   background-image:url('http://i.imgur.com/KWeiBw1.jpg');
-  margin-left: 180px;
-  height: 500px;
-  width: 1500px;
-  
-  
+  margin-left: 400px;
+ 
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: all 0.3s ease-in-out;  
 }
