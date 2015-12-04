@@ -49,9 +49,9 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	font-family:'Helvetica Neue',sans-serif;
 	font-size:18px;
 	line-height:30px;
-	border-radius:  50px;
-	-webkit-border-radius:  50px;
-	-moz-border-radius:  50px;
+	border-radius:  9px;
+	-webkit-border-radius:  9px;
+	-moz-border-radius:  9px;
 	border:0;
 	
 	width:175px;
