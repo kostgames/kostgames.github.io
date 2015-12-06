@@ -1,70 +1,63 @@
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-}
-
-.jumbotron {
-
-  background-image:url('http://i.imgur.com/KWeiBw1.jpg');
-  margin-left: 400px;
- 
-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  transition: all 0.3s ease-in-out;  
-}
-.jumbotron:hover {
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-
-
-
-.nav {
+.button {
+text-align:center;
+cursor:pointer;
+border:none;
+background-color:#2081bd;
+color:white;
+width:350px;
+padding:20px;
 float:left;
-margin-top:-11px;
-margin-left:-50px;
+margin-left:-20px;
+margin-top:0px;
+line-height:20px;
+font-size:25px;
+border-radius:10px;
+transition: all 0.4s;
 }
-.styled-button-5 {
-background-color:#2081bd;	
-color:white;	
-font-family:'Lobster';  
-font-size:25px;	
-line-height:40px;	
-border:0;		
-width:375px;	
-padding-top:10px;	
-padding-bottom:10px;    
-cursor:pointer;   
-transition: all 0.4s; 
-margin-right:-5px;   
- margin-left:-5px  
- transition: all 0.4s;
-   }   
-            .styled-button-5:hover {   
-   width:355px;     
-   background-color:#3399FF;     
-   box-shadow: 0px -4px #00838f;     
-   }        
-   .styled-button-5:active {      
-   box-shadow: 0px 0px #6b54d3;      
-   }          
-   .nav li     {          
-   display:inline-block;          
-   }                
-   #active           { 
-   background-color:#ff7200;         
-   box-shadow: 0px -4px #bd2020;           
-   }
-body {background:url('http://i.imgur.com/7nKsybG.png') ;
-background-size: 760px 760px;
+.button:hover {
+background-color:white;
+color:#2081bd;
+-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
 }
+.button span {  
+cursor: pointer;  
+font-family:'Lobster';
+display: inline-block;  
+position: relative;  
+transition: 0.4s;
+}
+.button span:after 
+{  
+content: '»';  
+position: absolute;  
+opacity: 0;  
+top: 0;  
+right: -150px;  
+transition: 0.4s;
+}
+.button:hover span {  
+padding-right: 25px;
+}
+.button:hover span:after {  
+opacity: 1;  
+right: 0;}
+#active {
+background-color:#ff7200;
+
+}
+#active:hover {
+background-color:white;
+color:#ff7200;
+}
+.jumbotron {  margin-top:20px;  margin-left: 400px;  box-shadow: 10px 10px 10px #888888;    }
+body {background-color:#e2e2e2;}
 
 .vid1 {
-    position:relative;
-    left:300px;
-    right:20px;
+   
+    margin-left:300px;
+    margin-right:20px;
 }
 
 .latestvid { 
@@ -73,8 +66,4 @@ background-size: 760px 760px;
     font-family:'Lobster';
     font-size:70px
    
-}
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
 }
