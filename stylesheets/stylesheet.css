@@ -52,7 +52,9 @@ background-color:white;
 color:#ff7200;
 }
 .jumbotron {  margin-top:20px;  margin-left: 400px;  box-shadow: 10px 10px 10px #888888;    }
-body {background-color:#e2e2e2;}
+body {background:url('http://i.imgur.com/7nKsybG.png') ;
+background-size: 760px 760px;
+}
 
 .vid1 {
    
