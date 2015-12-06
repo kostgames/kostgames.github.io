@@ -1,67 +1,52 @@
-.nav {
+.button {
+cursor:pointer;
+border:none;
+background-color:#2081bd;
+color:white;
+width:350px;
+padding:20px;
 float:left;
-margin-top:-10px;
-margin-left:-50px;
-
+margin-left:-20px;
+margin-top:0px;
+line-height:20px;
+font-family:'Lobster';
+font-size:25px;
+text-align:center;
+border-radius:10px;
+transition: all 0.4s;}
+.button:hover {
+background-color:white;
+color:#2081bd;
+-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);}
+.button span {  
+cursor: pointer;  
+display: inline-block;  
+position: relative;  
+transition: 0.4s;}
+.button span:after {  
+content: '»';  
+position: absolute;  
+opacity: 0;  
+top: 0;  
+right: -150px;  
+transition: 0.4s;}
+.button:hover span {  
+padding-right: 25px;}
+.button:hover span:after {  
+opacity: 1;  
+right: 0;}
+#active {
+background-color:#ff7200;}
+#active:hover {
+background-color:white;
+color:#ff7200;
+}body {
+background:url('http://i.imgur.com/7nKsybG.png') ;
+background-size: 760px 760px;}
+.allvids{
+margin-top:80px;
 }
-.styled-button-5 {	
-background-color:#2081bd;	
-color:white;	
-font-family:'Lobster';  
-font-size:25px;	
-line-height:40px;	
-border:0;		
-width:375px;	
-padding-top:10px;	
-padding-bottom:10px;    
-cursor:pointer;   
-transition: all 0.4s; 
-margin-right:-5px;    
-margin-left:-5px  
-transition: all 0.4s; 
- }           
- .styled-button-5:hover {
-   width:355px;  
-   background-color:#3399FF;  
-   box-shadow: 0px -4px #00838f;  
-   }    
-    .styled-button-5:active {  
-    box-shadow: 0px 0px #6b54d3;  
-    }      
-    .nav li 
-    {      
-    display:inline-block;
-          }      
-          #active 
-          { background-color:#ff7200;
-          box-shadow: 0px -4px #bd2020;
-           }
-body {background:url('http://i.imgur.com/7nKsybG.png') ;
-background-size: 760px 760px;
-}
-#singlevid { 
-position:relative;
-left:630px;
-
-}
-.leftvid { 
-margin-left:275px;
-}
-
-.leftvid .rightvid {
-display:inline;
-}
-.rightvid {
-position:relative;
-left:50px;
-
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-#morevideosbtn {
-position:relative;
-left:685px;
-}
+.leftvid { margin-left:275px;}.leftvid .rightvid {display:inline; margin-top:20px;}.rightvid {margin-left:50px;}
+#morevideosbtn {position:relative;left:685px;}
