@@ -50,7 +50,9 @@ background-color:#ff7200;
 background-color:white;
 color:#ff7200;
 }
-body {background-color:#e2e2e2;}
+body {background:url('http://i.imgur.com/7nKsybG.png') ;
+background-size: 760px 760px;
+}
  {
 list-style-type: circle;
 }
