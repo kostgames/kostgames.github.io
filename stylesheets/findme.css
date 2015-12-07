@@ -1,103 +1,136 @@
-.nav {
+.button {
+cursor:pointer;
+border:none;
+background-color:#2081bd;
+color:white;
+width:350px;
+padding:20px;
 float:left;
-margin-top:-10px;
-margin-left:-50px;
-
+margin-left:-20px;
+margin-top:0px;
+line-height:20px;
+font-family:'Lobster';
+font-size:25px;
+text-align:center;
+border-radius:10px;
+transition: all 0.4s;}
+.button:hover {
+background-color:white;
+color:#2081bd;
+-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);}
+.button span {  
+cursor: pointer;  
+display: inline-block;  
+position: relative;  
+transition: 0.4s;}
+.button span:after {  
+content: '»';  
+position: absolute;  
+opacity: 0;  
+top: 0;  
+right: -150px;  
+transition: 0.4s;}
+.button:hover span {  
+padding-right: 25px;}
+.button:hover span:after {  
+opacity: 1;  
+right: 0;}
+#active {
+background-color:#ff7200;}
+#active:hover {
+background-color:white;
+color:#ff7200;
 }
-.styled-button-5 {	
-background-color:#2081bd;	
-color:white;	
-font-family:'Lobster';  
-font-size:25px;	
-line-height:40px;	
-border:0;		
-width:375px;	
-padding-top:10px;	
-padding-bottom:10px;    
-cursor:pointer;   
-transition: all 0.4s; 
-margin-right:-5px;    
-margin-left:-5px  
-transition: all 0.4s; 
- }           
- .styled-button-5:hover {
-   width:355px;  
-   background-color:#3399FF;  
-   box-shadow: 0px -4px #00838f;  
-   }    
-    .styled-button-5:active {  
-    box-shadow: 0px 0px #6b54d3;  
-    }      
-    .nav li 
-    {      
-    display:inline-block;
-          }      
-          #active 
-          { background-color:#ff7200;
-          box-shadow: 0px -4px #bd2020;
-           }
-body {background:url('http://i.imgur.com/7nKsybG.png') ;
-background-size: 760px 760px;
-}
-
+.findmetext {margin-top:20px;margin-left:680px;color:#2081bd;font-family:'Lobster'}
 .googleplus {
 margin-left:20px;
-padding-right:1200px;
+padding-right:880px;
 padding-left:790px;
 background-color:#dc473a;
 box-shadow: 0px 0px #c62828;
-transition: all 0.4s;
-}
+transition: all 0.4s;}
 .googleplus:hover {
 box-shadow: 0px 5px #c62828;
 }
-
-
-.findmetext {
-position:relative;
-left:680px;
-color:#2081bd;
-font-family:'Lobster'
-
-
-}
-html, body, head {
-    max-width:100%;
-    overflow-x: hidden;
-}
 .youtube {
 margin-left:20px;
-padding-right:800px;
+padding-right:744px;
 padding-left:645px;
 background-color:#c11a1a;
 box-shadow: 0px 0px #B71C1C;
-transition: all 0.4s; 
-}
-.youtube:hover {
-box-shadow: 0px 5px #B71C1C;
-}
-
-
+transition: all 0.4s; }
+.youtube:hover {box-shadow: 0px 5px #B71C1C;}
 .twitter {
 margin-left:20px;
-padding-right:1200px;
+padding-right:771px;
 padding-left:690px;
 background-color:#33ccff;
 box-shadow:0px 0px #03a9f4;
-transition: all 0.4s;
-}
+transition: all 0.4s;}
 .twitter:hover {
 box-shadow:0px 5px #03a9f4;
 }
-
 .twitch {
 margin-left:20px;
-padding-right:1200px;
+padding-right:780px;
 padding-left:700px;
 background-color:#6442a6;
 box-shadow: 0px 0px #4527a0;
-transition: all 0.4s;
-}
+transition: all 0.4s;}
 .twitch:hover {
 box-shadow: 0px 5px #4527a0;
+}
+body {
+background:url('http://i.imgur.com/7nKsybG.png') ;
+background-size: 760px 760px;}
+
+@media screen and (max-width: 480px) 
+{
+.button {
+background-color:#2081bd;
+margin-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+padding-right:0px;
+padding-left:0px;
+line-height:10px;
+border-radius:0px;
+font-size:15px;
+width:75px;
+transition:none;}
+.button:hover {
+background-color:#2081bd;
+color:white;
+content:none;
+transition:none;
+box-shadow:none;
+width:75px;}
+.button:active {
+background-color:#3399FF;
+}
+.button span {
+position:none;
+transition:none;}
+.button span:after {
+transition:none;
+content:none;
+position:none;
+right:none;}
+.button:hover span{
+padding:0;
+transition:none;}
+.button:hover span:after {
+transition:none;
+opacity:none;
+right:none;}
+#myvideosspec { 
+width:90px;  
+}
+#active {
+box-shadow:none;}
+#active:hover{
+background-color:#ff7200;
+color:white;}
 }
