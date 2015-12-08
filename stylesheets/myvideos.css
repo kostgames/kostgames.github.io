@@ -58,7 +58,7 @@ height:315px;
 }
 .leftvid .rightvid {display:inline; margin-top:20px;}.rightvid {margin-left:50px;}
 #morevideosbtn {position:relative;left:685px;}
-@media all and (orientation:portrait) 
+@media all and (orientation:portrait){ 
 html, body, head {
     max-width:100%;
     overflow-x: hidden;
