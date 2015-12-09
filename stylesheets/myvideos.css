@@ -44,7 +44,10 @@ background-color:white;
 color:#ff7200;
 }body {
 background:url('http://i.imgur.com/7nKsybG.png') ;
-background-size: 760px 760px;}
+background-size: 760px 760px;
+    width:100%;
+    overflow-x:hidden;
+}
 .allvids{
 margin-top:80px;
 }
