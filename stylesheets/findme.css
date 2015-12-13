@@ -44,144 +44,79 @@ background-color:white;
 color:#ff7200;
 }
 .findmetext {margin-top:20px;margin-left:680px;color:#2081bd;font-family:'Lobster'}
-.box {
-  background-color:white;
-  color:lightblue;
-  display: block;
-  width:500px;
+.twitter {
+ border:none;
+width:500px;
   height:500px;
-  margin-top:50px;
-  margin-left:100px;
-  border-radius:3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-#twitchbox {
-  margin-left: 500px;
-  cursor:pointer;
-  transition: all 0.4s;
-}
-#twitchbox:hover {
-  background-color: #6442a6;
-
-}
-#twitchbox .twitch {
-  position: relative;
-  top:180px;
-  margin-left:0px;
-  padding-left:90px;
-  padding-right: 95px;
-  padding-top: 180px;
-  padding-bottom:194px;
-  border-radius: 3px;
-  text-decoration: none;
-  font-size:100px;
-  color:#6442a6;
+  margin-left:280px ;
+font-size: 100px;
   font-family:'Comfortaa';
-
-  transition: all 0.4s ;
-
-}
-#twitchbox .twitch:hover {
-  background-color:#6442a6;
-  color:white;
-
-}
-#twitter {
-  margin-left: -290px;
-  cursor: pointer;
-  transition: all 0.4s;
-}
-#twitter:hover {
-  background-color: #33ccff;
-}
-#twitter .tweet {
-  position: relative;
-  top:180px;
-  margin-left:0px;
-
-  padding-top:180px;
-  padding-bottom:194px;
-  padding-left:80px;
-  padding-right: 70px;
-  border-radius: 3px;
-  text-decoration: none;
-  font-size:100px;
   color:#33ccff;
-  font-family:'Comfortaa';
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius:3px;
   transition: all 0.4s;
+  
 }
-#twitter .tweet:hover {
+.twitter:hover {
   background-color:#33ccff;
   color:white;
-
-}
-#youtube {
-  position: relative;
-  left: -200px;
-  cursor: pointer ;
   
-  margin-right: 20px;
-  
-  transition: all 0.4s; 
 }
-#youtube:hover {
-  background-color: #c11a1a; 
-}
-#youtube .yt {
+.youtube {
   position: relative;
-  top:180px;
-  margin-left:0px;
-
-  padding-top:180px;
-  padding-bottom: 194px;
-  padding-left:60px ;
-  padding-right: 33px;
-  border-radius: 3px;
-  text-decoration: none;
-  font-size:100px;
-  font-family:'Comfortaa';
+  left:220px;
+border: none;
+  width: 500px;
+  height: 500px;
+  font-size: 100px;
+  font-family: 'Comfortaa';
   color:#c11a1a;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.4s;
-
+  
 }
-#youtube {
-  margin-left:-303px; 
-}
-#youtube .yt:hover {
+.youtube:hover {
   background-color:#c11a1a;
   color:white;
-
-}
-#googleplus {
-position: relative;
-  left:214px;
-  cursor:pointer;
-  transition: all 0.4s;
   
-
 }
-#googleplus:hover {
-  background-color: #dc473a; 
-}
-#googleplus .gplus {
-  position: relative;
-  top: 180px;
-  padding-top: 180px;
-  padding-left: 55px;
-  padding-right: 44px;
-  padding-bottom: 194px;
-  color:#dc473a;
-  text-decoration: none;
-  border-radius: 3px;
+.twitch {
+ border:none;
+  margin-left: 280px;
+  width: 500px;
+  height: 500px;
   font-size: 100px;
   font-family:'Comfortaa';
+  color:#6442a6;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.4s;
-
 }
-#googleplus .gplus:hover {
+.twitch:hover {
+  background-color:#6442a6;
   color:white;
-  background-color: #dc473a;
+  
+}
+.googleplus{
+  position: relative;
+  left:220px;
+ border:none;
+  width: 500px;
+  height: 500px;
+  font-size: 100px;
+  font-family:'Comfortaa';
+  color:#dc473a;
+  border-radius:3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.4s;
+}
+.googleplus:hover {
+  background-color:#dc473a;
+  color:white;
+}
+tr:empty {
+  height:50px; 
 }
 body {
 background:url('http://i.imgur.com/7nKsybG.png') ;
