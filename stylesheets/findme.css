@@ -47,7 +47,7 @@ color:#ff7200;
 .box {
   background-color:white;
   color:lightblue;
- display: block;
+  display: block;
   width:500px;
   height:500px;
   margin-top:50px;
@@ -57,12 +57,13 @@ color:#ff7200;
 }
 
 #twitchbox {
+  margin-left: 500px;
   cursor:pointer;
   transition: all 0.4s;
 }
 #twitchbox:hover {
   background-color: #6442a6;
-  
+
 }
 #twitchbox .twitch {
   position: relative;
@@ -77,9 +78,9 @@ color:#ff7200;
   font-size:100px;
   color:#6442a6;
   font-family:'Comfortaa';
-  
+
   transition: all 0.4s ;
-  
+
 }
 #twitchbox .twitch:hover {
   background-color:#6442a6;
@@ -87,7 +88,7 @@ color:#ff7200;
 
 }
 #twitter {
- margin-left: -304px;
+  margin-left: -290px;
   cursor: pointer;
   transition: all 0.4s;
 }
@@ -95,16 +96,16 @@ color:#ff7200;
   background-color: #33ccff;
 }
 #twitter .tweet {
- position: relative;
+  position: relative;
   top:180px;
   margin-left:0px;
-  
+
   padding-top:180px;
   padding-bottom:194px;
   padding-left:80px;
   padding-right: 70px;
   border-radius: 3px;
- text-decoration: none;
+  text-decoration: none;
   font-size:100px;
   color:#33ccff;
   font-family:'Comfortaa';
@@ -113,18 +114,22 @@ color:#ff7200;
 #twitter .tweet:hover {
   background-color:#33ccff;
   color:white;
-  
+
 }
 #youtube {
- cursor: pointer ;
+  position: relative;
+  left: -200px;
+  cursor: pointer ;
+  
   margin-right: 20px;
+  
   transition: all 0.4s; 
 }
 #youtube:hover {
   background-color: #c11a1a; 
 }
 #youtube .yt {
- position: relative;
+  position: relative;
   top:180px;
   margin-left:0px;
 
@@ -138,22 +143,23 @@ color:#ff7200;
   font-family:'Comfortaa';
   color:#c11a1a;
   transition: all 0.4s;
-  
+
 }
 #youtube {
- margin-left:-303px; 
+  margin-left:-303px; 
 }
 #youtube .yt:hover {
   background-color:#c11a1a;
   color:white;
-  
+
 }
 #googleplus {
-  
-cursor:pointer;
+position: relative;
+  left:214px;
+  cursor:pointer;
   transition: all 0.4s;
   
-  
+
 }
 #googleplus:hover {
   background-color: #dc473a; 
@@ -171,7 +177,7 @@ cursor:pointer;
   font-size: 100px;
   font-family:'Comfortaa';
   transition: all 0.4s;
-  
+
 }
 #googleplus .gplus:hover {
   color:white;
