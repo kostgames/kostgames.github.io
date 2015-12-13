@@ -1,0 +1,26 @@
+body {
+  
+  background-color: lightgray;
+}
+.button{
+ text-decoration:none;
+  display: block;
+  color:white;
+  background-color:dodgerblue;
+  font-family:'Arial';
+  font-size:20px;
+  
+  border-top: 2px solid white;
+}
+.button span {
+ margin-left:100px ;
+}
+#active {
+ background-color:darkorange;
+}
+.leftvid {
+ width:250px; 
+}
+.rightvid {
+ width:250px; 
+}
