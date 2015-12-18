@@ -79,7 +79,19 @@ background-size: 760px 760px;
     font-size:70px
    
 }
-@media screen and (max-width:1120px) {
-.button {
-width:150px;}
+@media screen and (max-device-width:1300px) {
+  .button {
+    width:150px;}
+  .jumbotron {
+   margin-left: 0px; 
+  }
+  .latestvid {
+   margin-left: 300px; 
+  }
+  .vid1 {
+   margin-left: 0px; 
+  }
+  .vid {
+   width:1100px; 
+  }
 }
