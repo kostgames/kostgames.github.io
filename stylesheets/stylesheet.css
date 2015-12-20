@@ -66,23 +66,18 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;
 background-size: 760px 760px;
 }
 
-.vid1 {
-   
-    margin-left:300px;
-    margin-right:20px;
+.vid {
+ width: 100%;
+  height: 980px;
 }
 
 .latestvid { 
-    margin-left:655px;
-    color:#2081bd;
-    font-family:'Lobster';
-    font-size:70px
-   
+  margin-left:655px;
+  color:#2081bd;
+  font-family:'Lobster';
+  font-size:70px
+
 }
- .vid {
-   width:100%; 
-   height:980px;
-  }
 @media screen and (max-device-width:1300px) {
   .button {
     width:150px;}
