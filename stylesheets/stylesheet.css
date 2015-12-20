@@ -79,6 +79,9 @@ background-size: 760px 760px;
     font-size:70px
    
 }
+ .vid {
+   width:1100px; 
+  }
 @media screen and (max-device-width:1300px) {
   .button {
     width:150px;}
