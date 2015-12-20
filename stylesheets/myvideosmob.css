@@ -1,26 +1,27 @@
-body {
-  
-  background-color: lightgray;
+body {background:url('http://i.imgur.com/7nKsybG.png') ;
+  background-size: 300px 300px;
 }
 .button{
  text-decoration:none;
   display: block;
   color:white;
-  background-color:dodgerblue;
-  font-family:'Arial';
+  background-color:#2081bd;
+  font-family:'Lobster';
   font-size:20px;
   
-  border-top: 2px solid white;
+  border-top: 2px solid #29b6f6;
+  border-radius: 3px;
 }
 .button span {
  margin-left:100px ;
 }
 #active {
- background-color:darkorange;
+  background-color:#ff7200;
+  border-color:lightcoral;
 }
 .leftvid {
- width:250px; 
+ width:270px; 
 }
 .rightvid {
- width:250px; 
+ width:270px; 
 }
