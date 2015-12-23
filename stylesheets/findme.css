@@ -1,176 +1,120 @@
 .button {
-cursor:pointer;
-border:none;
-background-color:#2081bd;
-color:white;
-width:350px;
-padding:20px;
-float:left;
-margin-left:-20px;
-margin-top:0px;
-line-height:20px;
-font-family:'Lobster';
-font-size:25px;
-text-align:center;
-border-radius:10px;
-transition: all 0.4s;}
+  cursor:pointer;
+  border:none;
+  background-color:#2081bd;
+  color:white;
+  width:350px;
+  padding:20px;
+  float:left;
+  margin-left:-20px;
+  margin-top:0px;
+  line-height:20px;
+  font-family:'Lobster';
+  font-size:25px;
+  text-align:center;
+  border-radius:10px;
+  transition: all 0.4s;}
 .button:hover {
-background-color:white;
-color:#2081bd;
--webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
--moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);}
+  background-color:white;
+  color:#2081bd;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);}
 .button span {  
-cursor: pointer;  
-display: inline-block;  
-position: relative;  
-transition: 0.4s;}
+  cursor: pointer;  
+  display: inline-block;  
+  position: relative;  
+  transition: 0.4s;}
 .button span:after {  
-content: '»';  
-position: absolute;  
-opacity: 0;  
-top: 0;  
-right: -150px;  
-transition: 0.4s;}
+  content: '»';  
+  position: absolute;  
+  opacity: 0;  
+  top: 0;  
+  right: -150px;  
+  transition: 0.4s;}
 .button:hover span {  
-padding-right: 25px;}
+  padding-right: 25px;}
 .button:hover span:after {  
-opacity: 1;  
-right: 0;}
+  opacity: 1;  
+  right: 0;}
 #active {
-background-color:#ff7200;}
+  background-color:#ff7200;}
 #active:hover {
-background-color:white;
-color:#ff7200;
+  background-color:white;
+  color:#ff7200;
 }
 .findmetext {margin-top:20px;margin-left:680px;color:#2081bd;font-family:'Lobster'}
-.twitter {
- border:none;
-width:500px;
+.boxes {
+  margin-top: px; 
+}
+.social {
+  width: 500px;
   height:500px;
-  margin-left:280px ;
-font-size: 100px;
-  font-family:'Comfortaa';
-  color:#33ccff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  border-radius:3px;
-  transition: all 0.4s;
-  
-}
-.twitter:hover {
-  background-color:#33ccff;
-  color:white;
-  
-}
-.youtube {
-  position: relative;
-  left:220px;
-border: none;
-  width: 500px;
-  height: 500px;
-  font-size: 100px;
+  margin-top: 15px;
+  margin-left: 220px;
+  text-align: center;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size:100px;
   font-family: 'Comfortaa';
-  color:#c11a1a;
+  background-color: white;
+  padding: 50px;
   border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.4s;
-  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);  
+  transition: all 0.4s ease-in-out;
 }
-.youtube:hover {
-  background-color:#c11a1a;
+#twitter {
+  color:deepskyblue;
+  transition: all 0.4s;
+}
+#tweet {
+  position: relative;
+  top:200px;
+
+
+}
+#twitter:hover {
+  background-color: deepskyblue;
   color:white;
-  
 }
-.twitch {
- border:none;
-  margin-left: 280px;
-  width: 500px;
-  height: 500px;
-  font-size: 100px;
-  font-family:'Comfortaa';
-  color:#6442a6;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+#youtube {
+  color:#c11a1a; 
   transition: all 0.4s;
 }
-.twitch:hover {
+#yt {
+  position:relative;
+  top:200px;
+}
+#youtube:hover {
+  color:white;
+  background-color: #c11a1a;
+}
+#twitch {
+  color:#6442a6;
+  transition: all 0.4s;
+}
+#twit {
+  position:relative;
+  top:200px;
+}
+#twitch:hover{
   background-color:#6442a6;
   color:white;
-  
 }
-.googleplus{
-  position: relative;
-  left:220px;
- border:none;
-  width: 500px;
-  height: 500px;
-  font-size: 100px;
-  font-family:'Comfortaa';
+#googleplus {
   color:#dc473a;
-  border-radius:3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.4s;
+
 }
-.googleplus:hover {
+#gplus {
+  position:relative;
+  top:200px;
+}
+#googleplus:hover {
   background-color:#dc473a;
   color:white;
 }
-tr:empty {
-  height:50px; 
-}
 body {
-background:url('http://i.imgur.com/7nKsybG.png') ;
-background-size: 760px 760px;}
-
-@media screen and (max-width: 480px) 
-{
-.button {
-background-color:#2081bd;
-margin-right:10px;
-padding-top:10px;
-padding-bottom:10px;
-padding-right:0px;
-padding-left:0px;
-line-height:10px;
-border-radius:0px;
-font-size:15px;
-width:75px;
-transition:none;}
-.button:hover {
-background-color:#2081bd;
-color:white;
-content:none;
-transition:none;
-box-shadow:none;
-width:75px;}
-.button:active {
-background-color:#3399FF;
-}
-.button span {
-position:none;
-transition:none;}
-.button span:after {
-transition:none;
-content:none;
-position:none;
-right:none;}
-.button:hover span{
-padding:0;
-transition:none;}
-.button:hover span:after {
-transition:none;
-opacity:none;
-right:none;}
-#myvideosspec { 
-width:90px;  
-}
-#active {
-box-shadow:none;}
-#active:hover{
-background-color:#ff7200;
-color:white;}
-}
-@media screen and (max-width:1120px) {
-.button {
-width:150px;}
-}
+  background:url('http://i.imgur.com/7nKsybG.png') ;
+  background-size: 760px 760px;}
