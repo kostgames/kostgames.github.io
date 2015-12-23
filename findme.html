@@ -1,65 +1,36 @@
 <html>
   <head>
-  <meta charset="UTF-8"> 
-  <link rel="shortcut icon" href="http://www.iconj.com/ico/p/k/pkbsu1jnvu.ico" type="image/x-icon" />
-  <title>Kost Games - Find me </title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/p/k/pkbsu1jnvu.ico" type="image/x-icon" />
+    <title>Kost Games - Find me </title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,greek' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="stylesheets/findme.css">
+    <link rel="stylesheet" media="screen and (min-width:480px)" href="stylesheets/findme.css">  
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="stylesheets/findmemobile.css">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa:700&subset=greek,latin' rel='stylesheet' type='text/css'> 
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,greek' rel='stylesheet' type='text/css'>
   </head>
-  
+
   <body>
     <div class="navigation">  
-<a href="http://kostgames.github.io" class="button"><span>Home</span></a>        
-<a href="http://kostgames.github.io/myvideos" class="button" id="myvideosspec"><span>My Videos</span></a>       
- <a href="http://kostgames.github.io/aboutme" class="button" ><span>About Me</span></a>        
- <a href="http://kostgames.github.io/info" class="button"><span>Info</span></a>        
- <a href="#" class="button" id="active"><span>Find me</span></a>    
-</div><br><img src="http://i.imgur.com/zti9Zms.png" class="findmetext" /><br><br><br>
-     <table>
-    <tbody>
-    <tr>
-      <td>
-      
-        <form action="https://twitter.com/kostgames" target="_blank">
+      <a href="http://kostgames.github.io" class="button"><span>Home</span></a>        
+      <a href="http://kostgames.github.io/myvideos" class="button" id="myvideosspec"><span>My Videos</span></a>       
+      <a href="http://kostgames.github.io/aboutme" class="button" ><span>About Me</span></a>        
+      <a href="http://kostgames.github.io/info" class="button"><span>Info</span></a>        
+      <a href="#" class="button" id="active"><span>Find me</span></a>    
+    </div><br><img src="http://i.imgur.com/zti9Zms.png" class="findmetext" /><br><br><br>
+    <div class="boxes">
 
 
-          
+      <a href="https://twitter.com/kostgames" class="social" target="_blank" id="twitter" ><span id="tweet">Twitter</span></a>
+      <a href="https://www.youtube.com/channel/UCTHRU_JdnHyIwGj1JZUrLiA" class="social" target="_blank" id="youtube" 
+         ><span id="yt">YouTube</span></a>
+      <a href="http://www.twitch.tv/kostiskyr01" class="social" target="_blank" id="twitch"><span id="twit">Twitch</span></a>
+      <a href="https://plus.google.com/+KostGames" class="social" target="_blank" id="googleplus"><span id="gplus">Google +</span></a>
+    </div>
 
 
-            <input style="cursor:pointer" type="submit" class="twitter" value="Twitter" />
-          
-      
-        </form>
-      </td>
-      <td>
-      <form action="https://www.youtube.com/channel/UCTHRU_JdnHyIwGj1JZUrLiA" target="_blank">
-        <input style="cursor:pointer;" type="submit" class="youtube" value="YouTube">
-        </form>
-      </td>
-      
-      
-      </tr><tr></tr>
-      <tr>
-      <td>
-        <form action="http://www.twitch.tv/kostiskyr01" target="_blank">
-          <input type="submit" style="cursor:pointer;" class="twitch" value="Twitch" />
-        </form>
-      
-      
-        </td>
-        <td>
-        <form action="https://plus.google.com/+KostGames" target="_blank">
-          <input type="submit" style="cursor:pointer;" class="googleplus" value="Google +" />
-          </form>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-    
-    
-    </body>
-    </html>
+  </body>
+</html>
