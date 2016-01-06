@@ -70,3 +70,10 @@ color:deepskyblue;
   background-color:#dc473a;
   color:white;
 }
+#deviant {
+  color:#2D9961;
+}
+#deviant:active {
+  background-color:#2b2b2b;
+  color:#05CC47;
+}
