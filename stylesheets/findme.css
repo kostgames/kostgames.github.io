@@ -105,7 +105,7 @@
 #googleplus {
   color:#dc473a;
   transition: all 0.4s;
-
+  margin-left:620px;
 }
 #gplus {
   position:relative;
@@ -114,6 +114,18 @@
 #googleplus:hover {
   background-color:#dc473a;
   color:white;
+}
+#deviant {
+  color: #2D9961;
+  transition: all 0.4s;
+}
+#dev {
+  position:relative;
+  top:195px;
+}
+#deviant:hover {
+  background-color: #2b2b2b;
+  color:#05CC47;
 }
 body {
   background:url('http://i.imgur.com/7nKsybG.png') ;
