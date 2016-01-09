@@ -4,7 +4,7 @@
   border:none;
   background-color:#2081bd;
   color:white;
-  width:350px;
+  width:270px;
   padding:20px;
   float:left;
   margin-left:-20px;
@@ -23,7 +23,7 @@
 }
 .button span {  
   cursor: pointer;  
-  font-family:'Lobster';
+  font-family:'Comfortaa';
   display: inline-block;  
   position: relative;  
   transition: 0.4s;
