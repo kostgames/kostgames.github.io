@@ -41,17 +41,17 @@ body {
   transition: all 0.8s;
 
 }
-.gameforce {
+.gal {
   margin-top: 25px;
   text-decoration: none;
   text-align: center;
   width:100%;
   height: 275px;
   display:inline-block;
-  
-  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12170533/e37e7942-b54a-11e5-819a-8a447f7eedff.png'); 
+
+ 
   background-size:100%;
-  
+background-color:lightgray;
   border-style: solid;
   border-radius: 5px;
   border-color:white;
@@ -59,241 +59,64 @@ body {
   box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
   transition: all 0.4s;
 }
-.gemifrap {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
-  background-image: url('http://img12.deviantart.net/921c/i/2016/005/d/5/gemifrap_avatar_by_kostgames-d9mu7kt.png'); 
+.gameforce {
+
+  
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12170533/e37e7942-b54a-11e5-819a-8a447f7eedff.png'); 
   background-size:100%;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+  
+  
+}
+.gemifrap {
+  background-image: url('http://img12.deviantart.net/921c/i/2016/005/d/5/gemifrap_avatar_by_kostgames-d9mu7kt.png'); 
+ 
 }
 .arcadeland {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175066/d9e40bfe-b568-11e5-8346-255e6f98431c.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 .captainpanez {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175135/4c07cad6-b569-11e5-86a9-58f30227993b.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 .gianuba22 {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
+ 
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175200/a9487934-b569-11e5-90fc-5290f2182d2a.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+
 }
 .deadlymuffin {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
+
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175324/3128f87e-b56a-11e5-8de2-7634c2bbfcde.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+
 }
 .kostgames {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
+ 
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12178422/08493dfa-b57a-11e5-99d7-d89f16976f51.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+
 }
 .bilyolo {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
+ 
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12178552/bf2a09b4-b57a-11e5-98d9-e3feb81c67dd.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+
 }
 .rebellgamesgr {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12201320/4f8d8ef2-b62c-11e5-841a-0fbe28564d1e.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 .jawblast {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215535/6b745658-b6c9-11e5-932d-62a274e47dd4.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 
 .steliosgamer {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215551/0c5b4194-b6ca-11e5-9ab0-a5d7d37149a8.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 .strafemaster {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215562/686ae48a-b6ca-11e5-96cd-8f1b6b08a011.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 .tgod {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;;
-  display:inline-block;
+ 
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215618/b0299aa2-b6cd-11e5-9dfb-c2afd829f0c0.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
 .tehskear {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;;
-  display:inline-block;
-  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12222585/0e7ae77c-b7c9-11e5-9776-fc1b013ac1d1.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12222585/0e7ae77c-b7c9-11e5-9776-fc1b013ac1d1.png');  
 }
 .kaneki {
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:100%;
-  height: 275px;;
-  display:inline-block;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12222593/43ea655e-b7c9-11e5-879e-084e72ea8934.png'); 
-  background-size:100%;
-  background-color: lightgrey;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:-5px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
 }
