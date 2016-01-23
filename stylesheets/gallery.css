@@ -153,7 +153,11 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;background-size: 760px 7
 .gregart {
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12378464/09e72918-bd47-11e5-81ce-fe8e328c86b3.jpg'); 
 }
+.frozenlights {
+ 
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529147/c241838c-c1b6-11e5-8c0e-c4fc1c686bf0.png'); 
 
+}
 
 
 @media screen and (max-device-width:1300px) {
