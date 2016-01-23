@@ -158,6 +158,11 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;background-size: 760px 7
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529147/c241838c-c1b6-11e5-8c0e-c4fc1c686bf0.png'); 
 
 }
+.frozenlights {
+ 
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529800/3857981a-c1ce-11e5-8fc2-4cae0ef5ffc8.png'); 
+
+}
 
 
 @media screen and (max-device-width:1300px) {
