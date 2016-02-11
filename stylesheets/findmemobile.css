@@ -8,72 +8,92 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;
   background-color:#2081bd;
   font-family:'Comfortaa';
   font-size:25px;
-  text-align: center;
-  
+text-align: center;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  box-shadow: 0px 2px #1a52d0;
   margin-top: 5px;
   border-radius: 5px;
 }
 .button:active {
-  background-color: #1291ff;
-  box-shadow: 0px 0px #1a52d0;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #1291ff
 }
 
 .active {
   background-color:#ff7200;
   border-color:#ffbebe;
-  box-shadow: 0px 2px #c76700
 }
 .findmetext {
 width:100%;
 }
-.social {
- width:100%;
-  display:block;
-  text-align:center;
-  background-color:white;
+.as {
+ margin-top:-50px; 
+}
+.soc {
+ display: block;
+  text-align: center;
+  width:100%;
+  text-decoration:none;
+  background-color: white;
   margin-top:10px;
-  line-height:80px;
-  text-decoration: none;
+  line-height:50px;
+  border-radius:3px;
+  font-family:'Comfortaa';
+  color:white;
   font-size:25px;
-  font-family: 'Comfortaa';
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-#twitter {
-color:deepskyblue;
+.soc:active {
+  background-color:white;
 }
-#twitter:active {
- background-color: deepskyblue;
-  color:white;
+.twitter {
+  background-color:#55ACEE;
+  box-shadow: 0px 4px #3682bc;
 }
-#youtube {
-  color:#c11a1a; 
+.twitter:active {
+  color:#55ACEE;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-#youtube:active {
-  background-color:#c11a1a;
-  color:white;
+
+.youtube {
+  background-color:#CC181E;
+  box-shadow: 0px 4px #a00c10;
 }
-#twitch {
-  color:#6442a6;
+.youtube:active{
+  color:#CC181E;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-#twitch:active {
-  background-color:#6442a6;
-  color:white;
+
+
+.twitch {
+  background-color:#6442A6;
+  box-shadow: 0px 4px #512f91;
 }
-#googleplus {
-  color:#dc473a; 
+.twitch:active {
+  color:#6442A6;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-#googleplus:active {
-  background-color:#dc473a;
-  color:white;
+
+.deviant {
+  background-color:#2D9961;
+  box-shadow: 0px 4px #136d3f;
 }
-#deviant {
+.deviant:active {
   color:#2D9961;
+  background-color:#2B2B2B;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-#deviant:active {
-  background-color:#2b2b2b;
-  color:#05CC47;
+
+.googleplus {
+  background-color: #DD564C;
+  box-shadow: 0px 4px #c43b31;
+}
+.googleplus:active {
+  color:#DD564C;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.order {
+  background-color:#34495e;
+  box-shadow: 0px 4px #2C3E50;
+}
+.order:active {
+  color:#34495e;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
