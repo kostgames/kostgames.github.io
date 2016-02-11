@@ -28,89 +28,107 @@
 .active:hover {
   color:#FF7200; 
 }
-.findmetext {margin-top:20px;margin-left:680px;color:#2081bd;font-family:'Lobster'}
-.boxes {
-  margin-top: px; 
+.findmetext {margin-top:20px; color:#2081bd;font-family:'Lobster'
 }
-.social {
-  width: 500px;
-  height:500px;
-  margin-top: 15px;
-  margin-left: 220px;
+.soc {
+ opacity: 0;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration:none;
+  color:white;
+  font-size:35px;
+  font-family:'Comfortaa';
+  display: block;
   text-align: center;
-
-  text-decoration: none;
-  display: inline-block;
-  font-size:100px;
-  font-family: 'Comfortaa';
-  background-color: white;
-  padding: 50px;
+  width:500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);  
-  transition: all 0.4s ease-in-out;
-}
-#twitter {
-  color:deepskyblue;
-  transition: all 0.4s;
-}
-#tweet {
-  position: relative;
-  top:200px;
+  transition: all .3s ease-in-out;
 
 
 }
-#twitter:hover {
-  background-color: deepskyblue;
-  color:white;
+.soc:hover {
+  background-color:white;
+  width:600px;
 }
-#youtube {
-  color:#c11a1a; 
-  transition: all 0.4s;
-}
-#yt {
+
+.as {
   position:relative;
-  top:200px;
+  top:50px;
 }
-#youtube:hover {
-  color:white;
-  background-color: #c11a1a;
+.as.soc {
+  align-items: center;
 }
-#twitch {
-  color:#6442a6;
-  transition: all 0.4s;
+.twitter {
+  background-color:#55ACEE;
+  box-shadow: 0px 4px #3682bc;
+  
 }
-#twit {
-  position:relative;
-  top:200px;
+.twitter:hover {
+  color:#55ACEE;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+  
 }
-#twitch:hover{
-  background-color:#6442a6;
-  color:white;
+.twitter:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
-#googleplus {
-  color:#dc473a;
-  transition: all 0.4s;
-  margin-left:620px;
+.youtube {
+  background-color:#CC181E;
+  box-shadow: 0px 4px #a00c10;
 }
-#gplus {
-  position:relative;
-  top:200px;
+.youtube:hover {
+  color:#CC181E;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-#googleplus:hover {
-  background-color:#dc473a;
-  color:white;
+.youtube:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
-#deviant {
-  color: #2D9961;
-  transition: all 0.4s;
+.twitch {
+  background-color:#6442A6;
+  box-shadow: 0px 4px #512f91;
 }
-#dev {
-  position:relative;
-  top:195px;
+.twitch:hover {
+  color:#6442A6;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-#deviant:hover {
-  background-color: #2b2b2b;
-  color:#05CC47;
+.twitch:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.deviant {
+  background-color:#2D9961;
+  box-shadow: 0px 4px #136d3f;
+}
+.deviant:hover {
+  color:#2D9961;
+  background-color:#2B2B2B;
+  box-shadow: 0px 4px #1d1d1d, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.deviant:active {
+  box-shadow: 0px 0px #1d1d1d, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.googleplus {
+  background-color: #DD564C;
+  box-shadow: 0px 4px #c43b31;
+}
+.googleplus:hover {
+  color:#DD564C;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.googleplus:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.order {
+  background-color:#34495e;
+  box-shadow: 0px 4px #2c3e50;
+}
+.order:hover {
+  color :#34495e;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.order:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
 body {
   background:url('http://i.imgur.com/7nKsybG.png') ;
