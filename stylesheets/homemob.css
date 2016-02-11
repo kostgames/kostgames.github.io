@@ -36,3 +36,19 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;
 .vid {
   width:100%;
 }
+.shop {
+ font-family:'Comfortaa';
+  width:100%;
+  background-color:white;
+  color:#313131;
+}
+.order {
+  background-color:#673AB7;
+  font-family:'Comfortaa';
+  font-size:25px;
+  color:white;
+  width:75%;
+  display:inline-block;
+    text-decoration:none;
+  border-radius:3px;
+}
