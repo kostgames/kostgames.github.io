@@ -80,7 +80,7 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;
   line-height:60px;
   border-radius:3px;
   box-shadow: 0px 4px #4b2096;
-  transition: all .4s;
+  transition: all .4s ease-in-out;
 }
 .order:hover {
  width:50%; 
