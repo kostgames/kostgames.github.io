@@ -1,38 +1,97 @@
-<html>
+
+
+   
+    <html>
   <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="http://www.iconj.com/ico/1/3/13nd3r5rns.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/1/3/13nd3r5rns.ico" type="image/x-icon" />
     <title>Kost Games - Find me </title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,greek' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" media="screen and (min-width:480px)" href="stylesheets/findme.css">  
-    <link rel="stylesheet" media="screen and (max-width:480px)" href="stylesheets/findmemobile.css">
+    <link rel="stylesheet" media="screen and (min-width:480px)" href="findme.css"> 
+    <link rel="stylesheet" media="screen and (min-width:480px)" href="navigation.css"> 
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="findmemobile.css">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa:700&subset=greek,latin' rel='stylesheet' type='text/css'> 
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,greek' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" media="screen and (max-width:480px)" ></script>
+    <script >
+
+
+
+      $(document).ready(function(){
+        if ($(window).width() >= 479) {
+
+
+       
+          $(".order").delay(400).animate({
+            opacity:'1'
+
+          }, "fast");
+          $(".twitter").delay(600).animate({
+            opacity:'1'
+
+          }, "fast");
+          $(".youtube").delay(800).animate({
+            opacity:'1'
+
+          }, "fast");
+          $(".twitch").delay(1000).animate({
+            opacity:'1'
+
+          }, "fast");
+
+          $(".deviant").delay(1200).animate({
+
+            opacity:'1'
+          }, "fast");
+          $(".googleplus").delay(1400).animate({
+
+            opacity:'1'
+          }, "fast");
+          
+        };
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+
+
+    </script>
+   
   </head>
 
   <body>
- <div class="nav">
-   <a href="http://kostgames.github.io" class="button">Home</a>
-   <a href="http://kostgames.github.io/myvideos" class="button">My Videos</a>
-   <a href="http://kostgames.github.io/gallery" class="button">My Gallery</a>
-   <a href="http://kostgames.github.io/aboutme" class="button">About Me</a>
-   <a href="http://kostgames.github.io/info" class="button">Info</a>
-   <a href="#" class="button active">Find me</a>
-  </div><br><img src="http://i.imgur.com/zti9Zms.png" class="findmetext" /><br><br><br>
-    <div class="boxes">
+    <div class="nav">
+      <a href="http://kostgames.github.io" class="button active">Home</a>
+      <a href="http://kostgames.github.io/myvideos" class="button">My Videos</a>
+      <a href="http://kostgames.github.io/gallery" class="button">My Gallery</a>
+      <a href="http://kostgames.github.io/aboutme" class="button">About Me</a>
+      <a href="http://kostgames.github.io/info" class="button">Info</a>
+      <a href="http://kostgames.github.io/findme" class="button">Find me</a>
+    </div><br><center><img src="http://i.imgur.com/zti9Zms.png" class="findmetext" /></center><br><br><br>
+  
 
 
-      <a href="https://twitter.com/kostgames" class="social" target="_blank" id="twitter" ><span id="tweet">Twitter</span></a>
-      <a href="https://www.youtube.com/channel/UCTHRU_JdnHyIwGj1JZUrLiA" class="social" target="_blank" id="youtube" 
-         ><span id="yt">YouTube</span></a>
-      <a href="http://www.twitch.tv/kost_games" class="social" target="_blank" id="twitch"><span id="twit">Twitch</span></a>
-           <a href="http://kostgames.deviantart.com/gallery/" class="social" target="_blank" id="deviant"><span id="dev">DeviantArt</span></a>
-      <a href="https://plus.google.com/+KostGames" class="social" target="_blank" id="googleplus"><span id="gplus">Google +</span></a>
-    </div>
-
+  <div class="as">
+    <a href="https://goo.gl/9GS5nG" class="soc order" target="_blank">My Shop</a>
+    <a href="https://twitter.com/kostgames" class="soc twitter" target="_blank">Twitter</a>
+    <a href="https://www.youtube.com/channel/UCTHRU_JdnHyIwGj1JZUrLiA" class="soc youtube" target="_blank">YouTube</a>
+    <a href="http://www.twitch.tv/kost_games" class="soc twitch" target="_blank">Twitch</a>
+    <a href="http://kostgames.deviantart.com/gallery/" class="soc deviant" target="_blank">DeviantArt</a>
+    <a href="https://plus.google.com/+KostGames" class="soc googleplus" target="_blank">Google+</a>
+      </div>
+   
 
   </body>
 </html>
