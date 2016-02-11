@@ -59,6 +59,38 @@ body {background:url('http://i.imgur.com/7nKsybG.png') ;
   font-size:70px
 
 }
+.shop {
+  color:#383838;
+  font-family:'Comfortaa';
+  font-size:50px;
+  background-color:white;
+  width:700px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+.order {
+ display:inline-block;
+  text-decoration:none;
+  color:white;
+  font-size:35px;
+  font-family:'Comfortaa';
+  background-color:#673AB7;
+  width:35%;
+  line-height:60px;
+  border-radius:3px;
+  box-shadow: 0px 4px #4b2096;
+  transition: all .4s;
+}
+.order:hover {
+ width:50%; 
+  background-color:white;
+  color:#673AB7;
+  box-shadow: 0px 4px #b9b9b9, 0px 0px 11px 0px rgba(0,0,0,0.43);
+}
+.order:active {
+  box-shadow: 0px 0px #b9b9b9, 0px 0px 0px 0px rgba(0,0,0,0.43);
+}
 @media screen and (max-device-width:1300px) {
   .button {
     width:150px;}
