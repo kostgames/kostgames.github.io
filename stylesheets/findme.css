@@ -79,15 +79,15 @@
 .deviant:active {
   box-shadow: 0px 0px #1d1d1d, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
-.googleplus {
-  background-color: #DD564C;
-  box-shadow: 0px 4px #c43b31;
+.youtube {
+  background-color:#e64045;
+  box-shadow: 0px 4px #be1e23;
 }
-.googleplus:hover {
-  color:#DD564C;
+.youtube:hover {
+  color:#e64045;
   box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
-.googleplus:active {
+.youtube:active {
   box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
 .order {
