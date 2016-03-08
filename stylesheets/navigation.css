@@ -15,6 +15,12 @@ body {
   float: left;
   transition: all .4s ;
 }
+.nav {
+width:100%;
+position:fixed;
+left:0;
+top:4px;
+}
 .button:hover {
   background-color:#e0e0e0;
   color:#09A4F9;
