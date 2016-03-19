@@ -1,35 +1,87 @@
-
 .gallery {
- margin-top:100px;
-  margin-left:25px;
+ margin-top:50px;
+ margin-left: 3%;
 }
-.name {
-  display: block;
-  position: relative;
-  font-size:25px;
-  font-family:'Comfortaa';
-  font-weight: 300;
+
+.gal {
+  width: 300px;
+  height:300px;
+  background-color:#bfbfbf;
+  display: inline-block;
+  background-size: cover;
+  background-position:center center;
+  position:relative;
+  float: left;
+  text-align:center;
+  transition: all .25s ease-in-out;
+}
+
+
+.gal::before {
+  content: '';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:0%;
+  background-color:rgba(9, 164, 249, 0.75);
+  transition: all .35s ease-in-out;
+}
+.gal::after {
+  content: '';
   color:white;
-  background-color:rgba(0, 0, 0, 0.4);
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 0%;
+  background-color:rgba(255, 255, 255, 0.51);
+  transition: all .35s ease-in-out;
+}
+.gal:hover::before {
+  height:50%; 
+}
+.gal:hover::after {
+  height:50%; 
+}
+.inbox {
+  display: block;
+  transition:all .35s ease-in-out;
+  color:white;
+  font-size:30px;
+  font-family:'comfortaa';
 
-  transition: all 0.8s;
+  z-index: +5;
+  position:relative;
+
+  opacity: 0;
 
 }
-.gal{
-  margin-top: 25px;
-  text-decoration: none;
-  text-align: center;
-  width:300px;
-  height: 300px;
-  display:inline-block;
- background-color:lightgray;
-  background-size:300px;
-  border-style: solid;
-  border-radius: 5px;
-  border-color:white;
-  margin-left:100px;
-  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
-  transition: all 0.4s;
+
+
+.top-text {
+  top:10%; 
+
+  font-size: 37px;
+  font-weight:400;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+}
+.bottom-text {
+  top:60% ;
+
+  font-style: italic;
+  font-weight: 400;
+  color:white;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
+}
+
+.gal:hover .top-text {
+  top:20%; 
+  opacity:1;
+}
+.gal:hover .bottom-text {
+  top:50% ;
+  opacity:1;
 }
 .gameforce {
  
@@ -99,29 +151,27 @@
 .gregart {
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12378464/09e72918-bd47-11e5-81ce-fe8e328c86b3.jpg'); 
 }
-
 .frozenlights {
- 
+
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529147/c241838c-c1b6-11e5-8c0e-c4fc1c686bf0.png'); 
 
 }
 .vyper {
- 
+
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529800/3857981a-c1ce-11e5-8fc2-4cae0ef5ffc8.png'); 
 
 }
 .tehepicz {
- 
+
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12852361/39df3210-cc37-11e5-9103-3008e2e35131.png'); 
 
 }
 .thanos {
- 
+
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12924489/0e1d3760-cf63-11e5-8720-5ff22f27b816.png'); 
 
 }
 .jhonois {
- 
-background-image: url('http://i.imgur.com/HwD6656.png');
-}
 
+  background-image: url('http://i.imgur.com/HwD6656.png');
+}
