@@ -1,5 +1,4 @@
-
-.name {
+.top-text {
   display: block;
   position: relative;
   font-size:25px;
@@ -10,6 +9,9 @@
 
   transition: all 0.8s;
 
+}
+.bottom-text{
+ display: none; 
 }
 .gal {
   margin-top: 25px;
@@ -91,22 +93,29 @@ background-color:lightgray;
   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12222593/43ea655e-b7c9-11e5-879e-084e72ea8934.png'); 
 }
 .gregart {
-  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12378464/09e72918-bd47-11e5-81ce-fe8e328c86b3.jpg');
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12378464/09e72918-bd47-11e5-81ce-fe8e328c86b3.jpg'); 
 }
 .frozenlights {
-   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529147/c241838c-c1b6-11e5-8c0e-c4fc1c686bf0.png'); 
+
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529147/c241838c-c1b6-11e5-8c0e-c4fc1c686bf0.png'); 
+
 }
 .vyper {
-   background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529800/3857981a-c1ce-11e5-8fc2-4cae0ef5ffc8.png'); 
+
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12529800/3857981a-c1ce-11e5-8fc2-4cae0ef5ffc8.png'); 
+
 }
 .tehepicz {
- background-image: url('https://cloud.githubusercontent.com/assets/14951831/12852361/39df3210-cc37-11e5-9103-3008e2e35131.png'); 
+
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12852361/39df3210-cc37-11e5-9103-3008e2e35131.png'); 
+
 }
 .thanos {
- background-image: url('https://cloud.githubusercontent.com/assets/14951831/12924489/0e1d3760-cf63-11e5-8720-5ff22f27b816.png'); 
+
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12924489/0e1d3760-cf63-11e5-8720-5ff22f27b816.png'); 
+
 }
 .jhonois {
- 
-background-image: url('http://i.imgur.com/HwD6656.png');
-}
 
+  background-image: url('http://i.imgur.com/HwD6656.png');
+}
