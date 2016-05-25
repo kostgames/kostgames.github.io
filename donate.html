@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kost Games - Donate</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic&subset=latin,greek' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin,greek' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" media="screen and (min-width:480px)" href="stylesheets/donate.css"> 
+    <link rel="stylesheet" media="screen and (min-width:480px)" href="stylesheets/navigation.css"> 
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="stylesheets/donatemob.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="stylesheets/navigationmobile.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" media="screen and (max-width:480px)" ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script >
+
+
+
+      $(document).ready(function(){
+        if ($(window).width() >= 479) {
+
+
+
+          $(".order").delay(400).animate({
+            opacity:'1'
+
+          }, "fast");
+          $(".twitter").delay(600).animate({
+            opacity:'1'
+
+          }, "fast");
+          $(".youtube").delay(800).animate({
+            opacity:'1'
+
+          }, "fast");
+          $(".twitch").delay(1000).animate({
+            opacity:'1'
+
+          }, "fast");
+
+          $(".deviant").delay(1200).animate({
+
+            opacity:'1'
+          }, "fast");
+          $(".googleplus").delay(1400).animate({
+
+            opacity:'1'
+          }, "fast");
+
+        };
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+
+
+    </script>
+  </head>
+  <body>
+
+    <div class="nav">
+      <a href="#" class="btn ef active">Find me</a>
+      <div class="findhid">
+
+
+        <a href="#" class="faq finb efside active">On Social Media</a>
+        <a href="/myshop" class="soft finb efside">My Shop</a>
+        <a href="/donate" class="hard finb efside">Donate</a>
+      </div>
+      <a href="#" class="btn ef">Info</a>
+      <div class="infohid">
+        <a href="/faq" class="faq info efside">FAQ</a>
+        <a href="/software" class="soft info efside">My Software</a>
+        <a href="/hardware" class="hard info efside">My Hardware</a>
+      </div>
+      <a href="/aboutme" class="btn ef">About Me</a>
+      <a href="#" class="btn ef">Gallery</a>
+      <div class="galhid">
+        <a href="/banners" class="faq galb efside">Banners</a>
+        <a href="/mcavatars" class="soft galb efside">Minecraft Avatars</a>
+        <a href="/serverlogos" class="hard galb efside">Server Logos</a>
+        <a href="/thumbnails" class="hard galb efside">Thumbnails</a>
+      </div>
+      <a href="/myvideos" class="btn ef">My Videos</a>
+      <a href="/" class="btn ef">Home</a>
+
+    </div>
+    <h1 class="header">
+      Donate <i class="fa fa-arrow-down fa-"></i>
+    </h1><center>
+    
+    
+    
+    
+    
+    
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_donations">
+      <input type="hidden" name="business" value="kostismc01@gmail.com">
+      <input type="hidden" name="lc" value="US">
+      <input type="hidden" name="item_name" value="KostGames">
+      <input type="hidden" name="no_note" value="0">
+      <input type="hidden" name="currency_code" value="EUR">
+      <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+      <input type="image" class="donatebtn" src="http://i.imgur.com/RgibjM6.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="http://i.imgur.com/RgibjM6.png" width="1" height="1">
+    </form>
+
+    </center>
+  </body>
+</html>
+
