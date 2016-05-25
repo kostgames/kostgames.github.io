@@ -1,79 +1,249 @@
-
-.jumbotron {
-
-  width:1150px;
-  height: 411px;
-  margin-left: 400px;
-  margin-top:20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  transition: all 0.3s ease-in-out;  
+body {
+  background-color:#263238;
+margin: 0;
+  padding:0;
+  font-family: sans-serif;
 }
-.jumbotron:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-body {background:url('http://i.imgur.com/7nKsybG.png') ;
-  background-size: 760px 760px;
+html, body {
+ height:100%; 
 }
 
-.vid {
-  width: 70%;
-  height: 650px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.latestvid { 
-  margin-left:655px;
-  color:#2081bd;
-  font-family:'Lobster';
-  font-size:70px
-
-}
-.shop {
-  color:#383838;
-  font-family:'Comfortaa';
-  font-size:50px;
-  background-color:white;
-  width:700px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  padding-top:5px;
-  padding-bottom: 5px;
-}
-.order {
- display:inline-block;
-  text-decoration:none;
+.nav {
+ position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: +15;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);}
+.btn {
+ text-decoration:none;
+  text-align:center;
+  display:inline-block;
+  width: calc(100% / 6);
+  float: right;
   color:white;
-  font-size:35px;
-  font-family:'Comfortaa';
-  background-color:#673AB7;
-  width:35%;
+  position: relative;
   line-height:60px;
-  border-radius:3px;
-  box-shadow: 0px 4px #4b2096;
-  transition: all .3s ease-in-out;
+  font-family:'roboto';
+  background-color: #2f3f47;
+  font-size:23px;
+  font-weight: 300;
+  overflow-y: hidden;
+  z-index: +1;
+  transition: all .25s ease-in-out;
 }
-.order:hover {
- width:50%; 
+.btn:hover {
+  background-color:#2979FF;
+  
+  
+}
+.ef::before {
+ content: '';
+  position:absolute;
+  bottom:0;
+  width:0px;
+  height:5px;
   background-color:white;
-  color:#673AB7;
-  box-shadow: 0px 4px #b9b9b9, 0px 0px 11px 0px rgba(0,0,0,0.43);
+  left:50%;
+  transition: all .25s ease-in-out;
 }
-.order:active {
-  box-shadow: 0px 0px #b9b9b9, 0px 0px 0px 0px rgba(0,0,0,0.43);
+.ef:hover::before {
+ left:0;
+  width:100%;
 }
-@media screen and (max-device-width:1300px) {
-  .button {
-    width:150px;}
-  .jumbotron {
-   margin-left: 0px; 
-  }
-  .latestvid {
-   margin-left: 300px; 
-  }
-  .vid1 {
-   margin-left: 0px; 
-  }
-  .vid {
-   width:1100px; 
-  }
+.efside::before {
+  content: '';
+  position:absolute;
+  left:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside::after {
+  content: '';
+  position:absolute;
+  right:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside:hover::before, .efside:hover::after {
+ top:0; 
+  height: 100%;
+}
+.infohid {
+ position:fixed;
+  top:0;
+  left:calc(100% / 6 *4);
+  height: 240px;
+  display: none;
+  width: calc(100%/ 6 );
+  transition: all .25s ease-in-out;
+}
+.infohid:hover {
+  display: inline;
+  
+}
+.btn:hover + .infohid {
+  display: inline;
+}
+.info {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: calc(100%);
+  background-color:#2f3f47;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+ 
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.info:hover {
+ color:white;
+  background-color:#2979FF;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+  
+}
+
+.galhid {
+  position:fixed;
+  top:0;
+  left:calc(100% / 6 *2);
+  width: calc(100%/ 6 );
+  display: none;
+  transition: all .25s ease-in-out;
+}
+.galhid:hover {
+  display: inline;
+}
+.btn:hover + .galhid {
+  display: inline;
+}
+.galb {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: 100%;
+  background-color:#2f3f47;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.galb:hover {
+  color:white;
+  background-color:#2979FF;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+}
+.findhid {
+  position:fixed;
+  top:0;
+  left:calc(100% / 6 *5);
+  width: calc(100%/ 6 );
+  display:none ;
+  transition: all .25s ease-in-out;
+}
+.findhid:hover {
+  display: inline;
+}
+.btn:hover + .findhid {
+  display: inline;
+}
+.finb {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: 100%;
+  background-color:#2f3f47;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.finb:hover {
+  color:white;
+  background-color:#2979FF;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+}
+.active {
+  background-color:  #2979FF;
+}
+.cont, .btntrig, .navmob, .hidbtn {
+ display: none; 
+}
+
+
+/* main page */
+
+
+
+
+
+.banner {
+ position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:50%;
+  z-index: +5;
+  background-image: url(http://i.imgur.com/tyF6aFP.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.14),inset 0 3px 1px -2px rgba(0,0,0,0.2),inset 0 1px 5px 0 rgba(0,0,0,0.12),inset 0 2px 2px 0 rgba(0,0,0,0.14),inset 0 3px 1px -2px rgba(0,0,0,0.2),inset 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.bantext {
+ font-size:135px;;
+  font-family: 'Londrina Solid';
+  font-weight: 700;
+
+  color:white;
+  cursor: default;
+  text-align: center; 
+  position:relative;
+  top:4vw;
+  text-transform: uppercase;
+  z-index: +2;
+  text-shadow: 0px 2px 5px #1a1a1a;
+  transition:  all .25s ease-in-out;
+}
+.bantext:hover {
+  color:#2979FF; 
+}
+.vid {
+ width:50%; 
+  border-radius:3px;
+  height:28vw;
+  position: absolute;
+  bottom:0;
+  left:25%;
+  border: solid 5px #2979FF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0, 0, 0, 0.23); 
+  z-index: +5;
+  transition: ALL .25s ease-in-out;
+}
+.vid:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  
+}
+.latestvid {
+  position: absolute;
+  width: 100%;
+ height:100%;
+top:0;
+  text-align: center;
 }
