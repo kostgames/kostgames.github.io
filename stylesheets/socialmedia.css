@@ -1,9 +1,6 @@
-
-.findmetext {margin-top:20px; color:#2081bd;font-family:'Lobster'
-}
 .soc {
- opacity: 0;
-  margin-top:10px;
+  opacity: 0;
+  margin-top:15px;
   margin-left: auto;
   margin-right: auto;
   text-decoration:none;
@@ -21,7 +18,7 @@
 
 }
 .soc:hover {
-  background-color:white;
+  background-color:#2F404B;
   width:600px;
 }
 
@@ -35,15 +32,15 @@
 .twitter {
   background-color:#55ACEE;
   box-shadow: 0px 4px #3682bc;
-  
+
 }
 .twitter:hover {
   color:#55ACEE;
-  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
-  
+  box-shadow: 0px 4px #293842, 0px 0px 11px 0px rgba(0,0,0,0.50);
+
 }
 .twitter:active {
-  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px #293842, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
 .googleplus {
   background-color: #DD564C;
@@ -51,21 +48,21 @@
 }
 .googleplus:hover {
   color:#DD564C;
-  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 4px #293842, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
 .googleplus:active {
-  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px #293842, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
 .twitch {
   background-color:#6442A6;
   box-shadow: 0px 4px #512f91;
 }
 .twitch:hover {
-  color:#6442A6;
-  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+  color:#956de2;
+  box-shadow: 0px 4px #293842, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
 .twitch:active {
-  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px #293842, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
 .deviant {
   background-color:#2D9961;
@@ -73,32 +70,20 @@
 }
 .deviant:hover {
   color:#2D9961;
-  background-color:#2B2B2B;
-  box-shadow: 0px 4px #1d1d1d, 0px 0px 11px 0px rgba(0,0,0,0.50);
+  background-color:#2F404B;
+  box-shadow: 0px 4px #293842, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
 .deviant:active {
-  box-shadow: 0px 0px #1d1d1d, 0px 0px 0px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px #293842, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
 .youtube {
   background-color:#e64045;
-  box-shadow: 0px 4px #be1e23;
+  box-shadow: 0px 4px #BE1E23;
 }
 .youtube:hover {
   color:#e64045;
-  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 4px #293842, 0px 0px 11px 0px rgba(0,0,0,0.50);
 }
 .youtube:active {
-  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px #293842, 0px 0px 0px 0px rgba(0,0,0,0.50);
 }
-.order {
-  background-color:#34495e;
-  box-shadow: 0px 4px #2c3e50;
-}
-.order:hover {
-  color :#34495e;
-  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
-}
-.order:active {
-  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
-}
-
