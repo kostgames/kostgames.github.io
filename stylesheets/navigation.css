@@ -185,3 +185,21 @@ html, body {
 .cont, .btntrig, .navmob, .hidbtn {
  display: none; 
 }
+.header {
+  font-size:75px;
+  font-family: 'Londrina Solid';
+  font-weight: 700;
+  color:white;
+  cursor: default;
+  text-align: center; 
+  position:relative;
+
+  line-height: 130px;
+  text-transform: uppercase;
+  z-index: +2;
+  text-shadow: 0px 2px 5px #1a1a1a;
+  transition:  all .25s ease-in-out;
+}
+.header:hover {
+  color:#2979FF; 
+}
