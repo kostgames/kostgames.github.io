@@ -1,0 +1,106 @@
+
+.findmetext {margin-top:20px; color:#2081bd;font-family:'Lobster'
+}
+.soc {
+ opacity: 0;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration:none;
+  color:white;
+  font-size:35px;
+  font-family:'Comfortaa';
+  display: block;
+  text-align: center;
+  width:500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  transition: all .3s ease-in-out;
+
+
+}
+.soc:hover {
+  background-color:white;
+  width:600px;
+}
+
+.as {
+  position:relative;
+  top:50px;
+}
+.as.soc {
+  align-items: center;
+}
+.twitter {
+  background-color:#55ACEE;
+  box-shadow: 0px 4px #3682bc;
+  
+}
+.twitter:hover {
+  color:#55ACEE;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+  
+}
+.twitter:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.googleplus {
+  background-color: #DD564C;
+  box-shadow: 0px 4px #c43b31;
+}
+.googleplus:hover {
+  color:#DD564C;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.googleplus:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.twitch {
+  background-color:#6442A6;
+  box-shadow: 0px 4px #512f91;
+}
+.twitch:hover {
+  color:#6442A6;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.twitch:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.deviant {
+  background-color:#2D9961;
+  box-shadow: 0px 4px #136d3f;
+}
+.deviant:hover {
+  color:#2D9961;
+  background-color:#2B2B2B;
+  box-shadow: 0px 4px #1d1d1d, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.deviant:active {
+  box-shadow: 0px 0px #1d1d1d, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.youtube {
+  background-color:#e64045;
+  box-shadow: 0px 4px #be1e23;
+}
+.youtube:hover {
+  color:#e64045;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.youtube:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+.order {
+  background-color:#34495e;
+  box-shadow: 0px 4px #2c3e50;
+}
+.order:hover {
+  color :#34495e;
+  box-shadow: 0px 4px #c6c5c5, 0px 0px 11px 0px rgba(0,0,0,0.50);
+}
+.order:active {
+  box-shadow: 0px 0px #c6c5c5, 0px 0px 0px 0px rgba(0,0,0,0.50);
+}
+body {
+  background:url('http://i.imgur.com/7nKsybG.png') ;
+  background-size: 760px 760px;}
