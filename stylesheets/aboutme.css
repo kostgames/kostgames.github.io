@@ -4,7 +4,7 @@
   height:300px;
   background-color:white;
   position: relative;
-  background-image:url('images/transparent kostgames logo.png');
+  background-image:url('/images/transparent kostgames logo.png');
   border: solid 4px #2979FF;
   background-size:cover;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.48);
