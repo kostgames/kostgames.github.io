@@ -70,7 +70,7 @@ display: none;
 }
 .cont {
 
-  position:fixed;
+  position:absolute;
   height:calc(100% - 52px);
   top:52px;
   width:100%;
