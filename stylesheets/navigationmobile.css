@@ -92,3 +92,13 @@ display: none;
 .btn {
   display: none; 
 }
+.header {
+  text-align: center;
+  color:white;
+  font-family: 'Londrina Solid', sans-serif;
+  font-size:30px;
+  position: relative;
+  top:50px;
+  text-transform: uppercase;
+}
+
