@@ -1,28 +1,94 @@
-body {background:url('http://i.imgur.com/7nKsybG.png') ;
-  background-size: 300px 300px;
+body {
+  background-color: #263238;
+  padding:0;
+  margin:0;
+  
+  font-family:'roboto', sans-serif;
+  height: 100%;
+  position:relative;
+  overflow-x: hidden;
 }
-.button{
-  text-decoration:none;
-  display: block;
+html,body {
+  height:100%; 
+}
+.navmob {
+  position:fixed;
+  width:100%;
+  left:0;
+  z-index: +1000; 
+  line-height: 50px;
+  top:0;
+  background-color:#2f3f47;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.navmob::after {
+  content: 'KostGames';
+  vertical-align: middle;
+  font-size:35px;
+  font-family: 'noto sans';
   color:white;
-  background-color:#2081bd;
-  font-family:'Comfortaa';
-  font-size:25px;
+  top: -3px;
+  position: relative;
+  left:35px;
+}
+.btntrig {
+  text-decoration:none;
+  float:left;
+  font-family: roboto;
+  color: #2979FF;
+  position: relative;
+  left:10px;
+  font-size:35px;
+  background-color: #2f3f47;
+}
+.hidbtn {
+  display: block;
   text-align: center;
+  background-color:#263238;
+  text-decoration:none;
+  color:white;
+  border-top: solid 4px #2979FF;
 
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  box-shadow: 0px 2px #1a52d0;
-  margin-top: 5px;
-  border-radius: 5px;
+  font-size:20px;
+  position: relative;
+  z-index: +1;
+  font-family: roboto;
+  font-weight: 400;
 }
-.button:active {
-  background-color: #1291ff;
-  box-shadow: 0px 0px #1a52d0;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+.efside {
+display: none;
 }
+.sub {
+ font-weight: 300; 
+  font-size:18px;
+}
+.super {
+  background-color: #37474e;
+}
+.arrow, .btn {
+  vertical-align: middle;
+}
+.cont {
 
+  position:fixed;
+  height:calc(100% - 52px);
+  top:52px;
+  width:100%;
+  z-index: +11;
+  display: none;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.addedcont {
+  display: block; 
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+
+}
+.find {
+  border-bottom: solid 4px  #2979FF;
+}
 .active {
-  background-color:#ff7200;
-  border-color:#ffbebe;
-  box-shadow: 0px 2px #c76700
+  background-color: #2979FF;
+}
+.btn {
+  display: none; 
 }
