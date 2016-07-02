@@ -77,19 +77,20 @@ html, body {
 }
 .infohid {
  position:fixed;
-  top:0;
+ top:60px;
+  height: 0;
+  
   left:calc(100% / 6 *4);
-  height: 240px;
-  display: none;
+  overflow-y: hidden;
+  display:block;
   width: calc(100%/ 6 );
   transition: all .25s ease-in-out;
 }
 .infohid:hover {
-  display: inline;
-  
+height:180px;  
 }
 .btn:hover + .infohid {
-  display: inline;
+height: 180px;
 }
 .info {
   text-decoration:none;
@@ -98,7 +99,7 @@ html, body {
   width: calc(100%);
   background-color:#2f3f47;
   color:#d8d8d8;
-  top:60px;
+  
   position: relative;
  
   line-height:60px;
@@ -115,17 +116,19 @@ html, body {
 
 .galhid {
   position:fixed;
-  top:0;
+  top:60px;
+  height: 0;
+  overflow-y: hidden;
   left:calc(100% / 6 *2);
   width: calc(100%/ 6 );
-  display: none;
+  display: block;
   transition: all .25s ease-in-out;
 }
 .galhid:hover {
-  display: inline;
+height:240px;
 }
 .btn:hover + .galhid {
-  display: inline;
+height: 240px;
 }
 .galb {
   text-decoration:none;
@@ -134,7 +137,6 @@ html, body {
   width: 100%;
   background-color:#2f3f47;
   color:#d8d8d8;
-  top:60px;
   position: relative;
   line-height:60px;
   font-family:'roboto';
@@ -148,17 +150,19 @@ html, body {
 }
 .findhid {
   position:fixed;
-  top:0;
+  top:60px;
+  height: 0;
+  overflow-y: hidden;
   left:calc(100% / 6 *5);
   width: calc(100%/ 6 );
-  display:none ;
+  display:block ;
   transition: all .25s ease-in-out;
 }
 .findhid:hover {
-  display: inline;
+height: 180px;
 }
 .btn:hover + .findhid {
-  display: inline;
+height: 180px;
 }
 .finb {
   text-decoration:none;
@@ -167,7 +171,6 @@ html, body {
   width: 100%;
   background-color:#2f3f47;
   color:#d8d8d8;
-  top:60px;
   position: relative;
   line-height:60px;
   font-family:'roboto';
